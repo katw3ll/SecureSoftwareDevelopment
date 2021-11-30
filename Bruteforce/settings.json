@@ -1,0 +1,9 @@
+{
+    "url": "http://dvwa.local/vulnerabilities/brute/index.php",
+    "file_pass": "passwords.txt",
+    "success_message": "Welcome to the password protected area admin",
+    "cookie":{
+        "security": "low", 
+        "PHPSESSID": "eluub4gm5bhcmpffscvbm2epgo"
+    }
+}
