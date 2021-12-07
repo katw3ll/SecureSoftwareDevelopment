@@ -1,5 +1,5 @@
 <?php
-if( isset($_POST['Login']) && isset($_POST['username']) && isset($_POST['username']) && isset($_POST['user_token'])) {
+if( isset($_POST['Login']) && isset($_POST['username']) && isset($_POST['username']) ) {
 	
     $user = stripslashes($_POST['username']);
 
@@ -63,6 +63,5 @@ if( isset($_POST['Login']) && isset($_POST['username']) && isset($_POST['usernam
     $data->bindParam( ':user', $user, PDO::PARAM_STR );  
     $data->execute();
 }
-
-generateNewSessionToken();  
+ 
 ?>
